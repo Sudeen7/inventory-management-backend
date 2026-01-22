@@ -1,0 +1,633 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\inventorymgmt.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\inventorymgmt.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\inventorymgmt.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\inventorymgmt.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\product\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\product\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\stockmovement\\createstockmovementrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\stockmovement\\createstockmovementrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\stockmovement\\stockmovementresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\stockmovement\\stockmovementresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\warehouseproduct\\warehouseproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\warehouseproduct\\warehouseproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\warehouse\\createwarehouserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\warehouse\\createwarehouserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\warehouse\\updatewarehouserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\warehouse\\updatewarehouserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\warehouse\\warehouseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\warehouse\\warehouseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\warehouseproduct\\updatestockrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\warehouseproduct\\updatestockrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\supplier\\updatesupplierrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\supplier\\updatesupplierrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\supplier\\createsupplierrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\supplier\\createsupplierrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\supplier\\supplierresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\supplier\\supplierresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\product\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\product\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\product\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\product\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\category\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\category\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\entities\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\entities\\stockmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\entities\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\entities\\warehouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\entities\\warehouseproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\entities\\warehouseproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\category\\updatecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\category\\updatecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.application\\dtos\\category\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96E35A00-0405-4789-96EB-B0B10199BC21}|InventoryMgmt.Application\\InventoryMgmt.Application.csproj|solutionrelative:inventorymgmt.application\\dtos\\category\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\interfaces\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\interfaces\\iwarehouserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\interfaces\\istockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\interfaces\\istockmovementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\interfaces\\iwarehouseproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\interfaces\\iwarehouseproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\interfaces\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\interfaces\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\common\\enums\\stockmovementtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\common\\enums\\stockmovementtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|d:\\dotnet_projects\\inventory_mgmt_system\\inventory_mgmt_system_soln\\inventorymgmt.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B04F689-E5E4-45C2-B99D-71CAC638ED87}|InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj|solutionrelative:inventorymgmt.domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\Services\\ProductService.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAqwIkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T08:56:03.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IProductRepository.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Interfaces\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:23:00.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-17T14:02:07.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:11:43.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAkwGUAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T07:19:41.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\Supplier.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Entities\\Supplier.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\Supplier.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Entities\\Supplier.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:49:22.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-13T08:51:01.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:34:34.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "InventoryMgmt.Domain.csproj",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj",
+              "RelativeToolTip": "InventoryMgmt.Domain\\InventoryMgmt.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-15T08:41:46.123Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Entities\\Product.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwBsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:44:20.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateStockMovementRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\StockMovement\\CreateStockMovementRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\StockMovement\\CreateStockMovementRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\StockMovement\\CreateStockMovementRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\StockMovement\\CreateStockMovementRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:14:01.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StockMovementResponse.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\StockMovement\\StockMovementResponse.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\StockMovement\\StockMovementResponse.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\StockMovement\\StockMovementResponse.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\StockMovement\\StockMovementResponse.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:06:29.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateStockRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\WarehouseProduct\\UpdateStockRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\WarehouseProduct\\UpdateStockRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\WarehouseProduct\\UpdateStockRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\WarehouseProduct\\UpdateStockRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:05:19.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WarehouseProductResponse.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\WarehouseProduct\\WarehouseProductResponse.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\WarehouseProduct\\WarehouseProductResponse.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\WarehouseProduct\\WarehouseProductResponse.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\WarehouseProduct\\WarehouseProductResponse.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBQAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:00:05.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateWarehouseRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Warehouse\\UpdateWarehouseRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Warehouse\\UpdateWarehouseRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Warehouse\\UpdateWarehouseRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Warehouse\\UpdateWarehouseRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:58:43.133Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateWarehouseRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Warehouse\\CreateWarehouseRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Warehouse\\CreateWarehouseRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Warehouse\\CreateWarehouseRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Warehouse\\CreateWarehouseRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:57:29.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WarehouseResponse.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Warehouse\\WarehouseResponse.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Warehouse\\WarehouseResponse.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Warehouse\\WarehouseResponse.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Warehouse\\WarehouseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:55:10.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateSupplierRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Supplier\\UpdateSupplierRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Supplier\\UpdateSupplierRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Supplier\\UpdateSupplierRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Supplier\\UpdateSupplierRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:51:32.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateSupplierRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Supplier\\CreateSupplierRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Supplier\\CreateSupplierRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Supplier\\CreateSupplierRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Supplier\\CreateSupplierRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:48:57.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SupplierResponse.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Supplier\\SupplierResponse.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Supplier\\SupplierResponse.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Supplier\\SupplierResponse.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Supplier\\SupplierResponse.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:46:14.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UpdateProductRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Product\\UpdateProductRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Product\\UpdateProductRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Product\\UpdateProductRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Product\\UpdateProductRequest.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T14:33:12.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CreateProductRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Product\\CreateProductRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Product\\CreateProductRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Product\\CreateProductRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Product\\CreateProductRequest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T14:30:32.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductResponse.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Product\\ProductResponse.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Product\\ProductResponse.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Product\\ProductResponse.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Product\\ProductResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T14:26:23.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UpdateCategoryRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Category\\UpdateCategoryRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Category\\UpdateCategoryRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Category\\UpdateCategoryRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Category\\UpdateCategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T14:13:37.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "CreateCategoryRequest.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Category\\CreateCategoryRequest.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Category\\CreateCategoryRequest.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Category\\CreateCategoryRequest.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Category\\CreateCategoryRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T14:12:18.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoryResponse.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Category\\CategoryResponse.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\DTOs\\Category\\CategoryResponse.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\DTOs\\Category\\CategoryResponse.cs",
+              "RelativeToolTip": "InventoryMgmt.Application\\DTOs\\Category\\CategoryResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T14:08:45.704Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InventoryMgmt.Application.csproj",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\InventoryMgmt.Application.csproj",
+              "RelativeDocumentMoniker": "InventoryMgmt.Application\\InventoryMgmt.Application.csproj",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Application\\InventoryMgmt.Application.csproj",
+              "RelativeToolTip": "InventoryMgmt.Application\\InventoryMgmt.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-12T14:08:04.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T09:09:48.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IStockMovementRepository.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IStockMovementRepository.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Interfaces\\IStockMovementRepository.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IStockMovementRepository.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Interfaces\\IStockMovementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:43:14.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IWarehouseProductRepository.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IWarehouseProductRepository.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Interfaces\\IWarehouseProductRepository.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IWarehouseProductRepository.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Interfaces\\IWarehouseProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:40:04.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IWarehouseRepository.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IWarehouseRepository.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Interfaces\\IWarehouseRepository.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\IWarehouseRepository.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Interfaces\\IWarehouseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:37:38.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ISupplierRepository.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\ISupplierRepository.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Interfaces\\ISupplierRepository.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Interfaces\\ISupplierRepository.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Interfaces\\ISupplierRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-26T08:36:15.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "StockMovement.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\StockMovement.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Entities\\StockMovement.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\StockMovement.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Entities\\StockMovement.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:02:35.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "WarehouseProduct.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\WarehouseProduct.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Entities\\WarehouseProduct.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\WarehouseProduct.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Entities\\WarehouseProduct.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:59:09.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Warehouse.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\Warehouse.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Entities\\Warehouse.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\Warehouse.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Entities\\Warehouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:53:14.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Entities\\Category.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:47:24.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StockMovementType.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Common\\Enums\\StockMovementType.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Common\\Enums\\StockMovementType.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Common\\Enums\\StockMovementType.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Common\\Enums\\StockMovementType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:32:40.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "InventoryMgmt.Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "D:\\dotnet_Projects\\Inventory_Mgmt_System\\Inventory_Mgmt_System_Soln\\InventoryMgmt.Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "InventoryMgmt.Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T08:42:18.755Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
