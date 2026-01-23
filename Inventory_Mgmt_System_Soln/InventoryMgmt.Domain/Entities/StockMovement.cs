@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace InventoryMgmt.Domain.Entities
 {
-    public class StockMovement:BaseEntity
+    public class StockMovement : BaseEntity
     {
-        public StockMovementType MovementType{ get; set; }
+        public StockMovementType MovementType { get; set; }
         public int Quantity { get; set; }
-        public DateTime MovementDate{ get; set; }
-        public string? Reference{ get; set; } //order number, etc.
+        public DateTime MovementDate { get; set; }
+        public string? Reference { get; set; } //order number, etc.
         public string? Notes { get; set; }
 
         //foreign keys

@@ -15,6 +15,7 @@ namespace InventoryMgmt.Domain.Entities
 
         //navigation props
         public ICollection<WarehouseProduct> WarehouseProducts { get; set; } = new List<WarehouseProduct>();
+        public ICollection<StockMovement> StockMovements { get; set; } = new List<StockMovement>();
 
     }
 }

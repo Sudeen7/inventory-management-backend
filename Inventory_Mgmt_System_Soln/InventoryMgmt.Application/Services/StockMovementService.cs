@@ -221,10 +221,10 @@ public class StockMovementService : IStockMovementService
             WarehouseId = request.WarehouseId,
             MovementType = request.MovementType,
             Quantity = request.Quantity,
-            MovementDate=DateTime.UtcNow,
+            MovementDate = DateTime.UtcNow,
             Reference = request.Reference,
             Notes = request.Notes,
-            CreatedAt=DateTime.UtcNow
+            CreatedAt = DateTime.UtcNow
         };
 
         var addedMovement = await _unitOfWork.StockMovements.AddAsync(stockMovement);
