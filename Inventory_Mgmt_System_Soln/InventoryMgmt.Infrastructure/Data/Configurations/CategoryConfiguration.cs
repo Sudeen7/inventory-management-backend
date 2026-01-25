@@ -21,6 +21,7 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Category>
             .HasMaxLength(100);
 
         builder.Property(c=>c.Description)
+            .IsRequired(false)
             .HasMaxLength(500);
 
         builder.Property(c=>c.CreatedAt)

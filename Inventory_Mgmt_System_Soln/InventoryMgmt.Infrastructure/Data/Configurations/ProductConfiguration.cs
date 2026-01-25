@@ -25,6 +25,7 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
             .HasMaxLength(200);
 
         builder.Property(p=>p.Description)
+            .IsRequired(false)
             .HasMaxLength(1000);
 
         builder.Property(p=>p.Price)
@@ -58,7 +59,7 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
         builder.HasMany(p=>p.WarehouseProducts)
             .WithOne(wp=>wp.Product)
             .HasForeignKey(wp=>wp.ProductId)
-            .OnDelete(DeleteBehavior.Cascade); //delete warehouseProducts when Product is deleted
+            .OnDelete(DeleteBehavior.Cascade);
 
         builder.HasMany(p=>p.StockMovements)
             .WithOne(sm=>sm.Product)

@@ -28,9 +28,11 @@ public class StockMovementConfiguration : IEntityTypeConfiguration<StockMovement
             .IsRequired();
 
         builder.Property(sm => sm.Reference)
+            .IsRequired(false)
             .HasMaxLength(50);
 
         builder.Property(sm => sm.Notes)
+            .IsRequired(false)
             .HasMaxLength(500);
 
         //Index

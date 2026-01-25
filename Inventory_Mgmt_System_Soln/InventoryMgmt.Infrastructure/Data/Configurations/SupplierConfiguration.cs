@@ -25,6 +25,7 @@ public class SupplierConfiguration : IEntityTypeConfiguration<Supplier>
             .HasMaxLength(200);
 
         builder.Property(s=>s.Email)
+            .IsRequired(false)
             .HasMaxLength(25);
 
         builder.Property(s=>s.Phone)
