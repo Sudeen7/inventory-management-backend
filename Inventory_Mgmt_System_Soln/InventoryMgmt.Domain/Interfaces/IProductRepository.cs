@@ -10,7 +10,6 @@ namespace InventoryMgmt.Domain.Interfaces
     public interface IProductRepository:IRepository<Product>
     {
         Task<Product?> GetBySkuAsync(string sku);
-        Task<IEnumerable<Product>> GetByNameAsync(string name);
         Task<IEnumerable<Product>> GetByCategoryAsync(int  categoryId);
         Task<IEnumerable<Product>> GetBySupplierAsync(int  supplierId);
         Task<IEnumerable<Product>> GetLowStockProductsAsync();
