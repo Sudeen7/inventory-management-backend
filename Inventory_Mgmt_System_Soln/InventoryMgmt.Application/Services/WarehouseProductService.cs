@@ -174,6 +174,18 @@ public class WarehouseProductService : IWarehouseProductService
         return response;
     }
 
+    public async Task<bool> DeleteAsync(int id)
+        {
+            var warehouseProduct = await _unitOfWork.WarehouseProducts.GetByIdAsync(id);
+            if (warehouseProduct == null) return false;
+            var deleted = await _unitOfWork.WarehouseProducts.DeleteAsync(id);
+            if (deleted)
+            {
+                await _unitOfWork.SaveChangesAsync();
+            }
+            return deleted;
+        }
+
     public async Task<bool> ExistsAsync(int warehouseId, int productId)
     {
         //return true if not null

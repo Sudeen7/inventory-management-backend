@@ -16,6 +16,7 @@ public interface IWarehouseProductService
 
     //command operations
     Task<WarehouseProductResponse> UpdateStockAsync(UpdateStockRequest request);
+    Task<bool> DeleteAsync(int id);
     Task<bool> ExistsAsync(int warehouseId, int productId);
 
     //no create method as warehouseProduct is created auto when stockMovement happens or can be created via UpdateStockAsync
