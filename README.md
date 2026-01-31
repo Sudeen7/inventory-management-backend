@@ -11,7 +11,7 @@ It is designed as a backend-only system with no frontend, focusing purely on app
 This project was built to:
 - Practice system design and clean architecture
 - Understand entity relationships
-- Learn about EF Core
+- Learn about Unit of Work pattern
 - Implement CRUD operations across multiple related tables
 
 ## Tech Stack
