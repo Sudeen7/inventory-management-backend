@@ -19,7 +19,12 @@ public interface IStockMovementService
     Task<StockMovementResponse> CreateAsync(CreateStockMovementRequest request);
 
     //method for Stock Transfers (creates 2 movements)
-    Task<IEnumerable<StockMovementResponse>> CreateTransferAsync(int productId, int sourceWarehouseId, int destinationWarehouseId, int quantity, string? reference, string? notes);
+    Task<IEnumerable<StockMovementResponse>> CreateTransferAsync(int productId, 
+                                                            int sourceWarehouseId, 
+                                                            int destinationWarehouseId, 
+                                                            int quantity, 
+                                                            string? reference, 
+                                                            string? notes);
     Task<bool> ExistsAsync(int id);
 
     //no update and delete as audit record should never be modified or deleted
